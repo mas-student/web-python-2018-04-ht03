@@ -1,6 +1,6 @@
 # Grammar Analyzer
 
-Grammar-Analyzer is the console tool that find most frequently parts of speech in
+Grammar-Analyzer is the console tool that find most frequently parts of speech in source code of project
 
 ## Prerequisites
 

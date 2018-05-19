@@ -34,7 +34,12 @@ def is_function_node(node):
     return isinstance(node, ast.FunctionDef)
 
 def get_node_name(node):
-    return node.name.lower()
+    if is_name_node(node):
+        return node.id
+    elif is_function_node(node):
+        return node.name.lower()
+
+    return
 
 def get_node_id(node):
     return node.id
